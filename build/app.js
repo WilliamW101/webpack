@@ -50,9 +50,22 @@
 
 	__webpack_require__(2);
 
-	// require('./materialize/js/materialize.min.js');
-
 	(0, _content.sayItWorks)();
+
+	var $SeeConst = $('#see-const');
+	var $ConstBtn = $('#const-btn');
+	var $SeeLet = $('#see-let');
+	var $LetBtn = $('#let-btn');
+
+	$ConstBtn.click(function () {
+	  $SeeConst.show();
+	  $SeeConst.hide();
+	});
+
+	$LetBtn.click(function () {
+	  $SeeLet.show();
+	  $SeeLet.hide();
+	});
 
 /***/ },
 /* 1 */
