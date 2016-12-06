@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  /*font-family: 'Aref Ruqaa', serif;*/
+}
+
+.card {
+  height: 300px !important;
+}
+
+.card-title {
+  text-decoration: underline !important;
+}
